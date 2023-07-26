@@ -7,9 +7,36 @@
     <title> Fruit Brust Website | by Rabiul Hasan </title>
     <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
 
-    <!-- Daisy UI and Tailwind CSS Framework -->
+    <!-- Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS Framework  -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font (Lato) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Color and Font Customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        fruitPrimary: '#F85559',
+                        fruitSecondary: '#121212',
+                        fruitWhite: '#FFFFFF',
+                        fruitTextColor: 'rgba(18, 18, 18, 0.60)',
+                        fruitBgColor: 'rgba(18, 18, 18, 0.10)'
+                    },
+                    fontFamily: {
+                        latoFont: "'Lato', sans-serif",
+                    },
+                },
+            },
+        }
+    </script>
+
     
 </head>
 
